@@ -10,8 +10,8 @@ import java.util.Scanner;
 public class ParallelProcessing {
     static class Pair implements Comparable{
         private int procNum;
-        private int time;
-        Pair(int num, int time){
+        private long time;
+        Pair(int num, long time){
             this.procNum = num;
             this.time = time;
         }
@@ -20,7 +20,7 @@ public class ParallelProcessing {
             return procNum;
         }
 
-        public int getTime() {
+        public long getTime() {
             return time;
         }
 
@@ -28,16 +28,21 @@ public class ParallelProcessing {
             this.procNum = procNum;
         }
 
-        public void setTime(int time) {
+        public void setTime(long time) {
             this.time = time;
         }
 
         @Override
         public int compareTo(Object o) {
             Pair p = (Pair) o;
-            return Integer.compare(this.time, p.time);
+            int result = Long.compare(this.time, p.time);
+            if (result == 0){
+                result = Long.compare(this.getProcNum(), p.getProcNum());
+            }
+            return result;
         }
     }
+
     static class Queue{
         Pair[] minQueue;
         int lastInd;
@@ -60,32 +65,27 @@ public class ParallelProcessing {
             swiftDown(0);
             return temp;
         }
-       // public void changePriority(){        }
-        //public void remove(){        }
         public void swiftUp(int index){
-            int prev = (index -1) /2;
-            if (index == 0){
-                 return;
-            } else if (minQueue[prev].compareTo(minQueue[index]) > 0){
+            int prev = (index - 1) / 2;
+            if ( index > 0 && minQueue[prev].compareTo(minQueue[index]) > 0){
                 Pair temp = minQueue[prev];
                 minQueue[prev] = minQueue[index];
                 minQueue[index] = temp;
                 swiftUp(prev);
             }
         }
-
         public void swiftDown(int index){
             boolean isNormalized = false;
-            while (index <= lastInd && !isNormalized){
-                int i = index*2 +1;
-                if (index + 1 <= lastInd && minQueue[i].compareTo(minQueue[i + 1]) > 0){
-                    index++;
+            while (index * 2 < lastInd && !isNormalized){
+                int compareInd = index*2 +1;
+                if (compareInd + 1 <= lastInd && minQueue[compareInd].compareTo(minQueue[compareInd + 1]) > 0){
+                    compareInd++;
                 }
-                if (index <= lastInd && minQueue[index].compareTo(minQueue[i]) > 0){
-                    Pair temp = minQueue[i];
-                    minQueue[i] = minQueue[index];
+                if (compareInd <= lastInd && minQueue[index].compareTo(minQueue[compareInd]) > 0){
+                    Pair temp = minQueue[compareInd];
+                    minQueue[compareInd] = minQueue[index];
                     minQueue[index] = temp;
-                    index = i;
+                    index = compareInd;
                 } else {
                     isNormalized = true;
                 }
@@ -109,10 +109,10 @@ public class ParallelProcessing {
 
         for (int i = 0; i < m; i++){
            // queue.printQueue();
-            int taskTime = scIn.nextInt();
+            long taskTime = scIn.nextInt();
             if (i >= n){
                 Pair minPair = queue.extractMin();
-                int newTime = minPair.getTime() + taskTime;
+                long newTime = minPair.getTime() + taskTime;
                 result.append("" + minPair.getProcNum() + " " + minPair.getTime()+ " \n");
                 minPair.setTime(newTime);
                 queue.insert(minPair);
