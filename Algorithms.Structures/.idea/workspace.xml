@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d65bbadf-3ea3-40ce-bc97-d033c92c1cee" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BasicStructures/MaxWindow.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/HashTables/TelephoneBook.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SystemsOfDisjointSets/AutomaticProgramAnalysis.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SystemsOfDisjointSets/TablesJoin.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithms.Structures/PriorityQueues/ParallelProcessing$Pair.class" afterPath="$PROJECT_DIR$/out/production/Algorithms.Structures/PriorityQueues/ParallelProcessing$Pair.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithms.Structures/PriorityQueues/ParallelProcessing$Queue.class" afterPath="$PROJECT_DIR$/out/production/Algorithms.Structures/PriorityQueues/ParallelProcessing$Queue.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithms.Structures/PriorityQueues/ParallelProcessing.class" afterPath="$PROJECT_DIR$/out/production/Algorithms.Structures/PriorityQueues/ParallelProcessing.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/AVLtree/BinTreeCorrectnessCheck.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/AVLtree/BinTreeTraversal.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/AVLtree/SplayTrees.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/HashTables/ChainHashing.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/HashTables/RabinKarpAlgorithm.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/PriorityQueues/ParallelProcessing.java" afterPath="$PROJECT_DIR$/src/PriorityQueues/ParallelProcessing.java" />
     </list>
     <ignored path="Algorithms.Structures.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,15 +28,74 @@
     <favorites_list name="Algorithms.Structures" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="TelephoneBook.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/HashTables/TelephoneBook.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="BinTreeCorrectnessCheck.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AVLtree/BinTreeCorrectnessCheck.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4461153">
-              <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="171" column="31" selection-start-line="171" selection-start-column="31" selection-end-line="171" selection-end-column="31" />
               <folding>
-                <element signature="e#1205#1206#0" expanded="true" />
-                <element signature="e#1246#1247#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="class#TempNode#0;class#BinTreeCorrectnessCheck#0" expanded="false" />
+                <element signature="e#449#450#0" expanded="true" />
+                <element signature="e#484#485#0" expanded="true" />
+                <element signature="e#517#518#0" expanded="true" />
+                <element signature="e#553#554#0" expanded="true" />
+                <element signature="e#585#586#0" expanded="true" />
+                <element signature="e#619#620#0" expanded="true" />
+                <element signature="class#Node#0;class#BinTreeCorrectnessCheck#0" expanded="false" />
+                <element signature="e#741#742#0" expanded="true" />
+                <element signature="e#783#784#0" expanded="true" />
+                <element signature="e#977#978#0" expanded="true" />
+                <element signature="e#1017#1018#0" expanded="true" />
+                <element signature="e#1060#1061#0" expanded="true" />
+                <element signature="e#1102#1103#0" expanded="true" />
+                <element signature="e#1145#1146#0" expanded="true" />
+                <element signature="e#1187#1188#0" expanded="true" />
+                <element signature="e#1220#1221#0" expanded="true" />
+                <element signature="e#1256#1257#0" expanded="true" />
+                <element signature="e#1288#1289#0" expanded="true" />
+                <element signature="e#1323#1324#0" expanded="true" />
+                <element signature="e#1356#1357#0" expanded="true" />
+                <element signature="e#1392#1393#0" expanded="true" />
+                <element signature="method#BinaryTree#0;class#BinaryTree#0;class#BinTreeCorrectnessCheck#0" expanded="false" />
+                <element signature="method#arrayToTree#0;class#BinaryTree#0;class#BinTreeCorrectnessCheck#0" expanded="false" />
+                <element signature="method#makeTraversals#0;class#BinaryTree#0;class#BinTreeCorrectnessCheck#0" expanded="false" />
+                <element signature="method#inOrder#0;class#BinaryTree#0;class#BinTreeCorrectnessCheck#0" expanded="false" />
+                <element signature="method#preOrder#0;class#BinaryTree#0;class#BinTreeCorrectnessCheck#0" expanded="false" />
+                <element signature="method#postOrder#0;class#BinaryTree#0;class#BinTreeCorrectnessCheck#0" expanded="false" />
+                <element signature="method#traversal#0;class#BinaryTree#0;class#BinTreeCorrectnessCheck#0" expanded="false" />
+                <element signature="class#Interval#0;class#BinTreeCorrectnessCheck#0" expanded="false" />
+                <element signature="method#Interval#0;class#Interval#0;class#BinTreeCorrectnessCheck#0" expanded="false" />
+                <element signature="e#6218#6219#0" expanded="true" />
+                <element signature="e#6268#6269#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SplayTrees.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/AVLtree/SplayTrees.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.2756892">
+              <caret line="70" column="22" selection-start-line="70" selection-start-column="22" selection-end-line="70" selection-end-column="22" />
+              <folding>
+                <element signature="e#596#597#0" expanded="true" />
+                <element signature="e#630#631#0" expanded="true" />
+                <element signature="e#667#668#0" expanded="true" />
+                <element signature="e#702#703#0" expanded="true" />
+                <element signature="e#741#742#0" expanded="true" />
+                <element signature="e#778#779#0" expanded="true" />
+                <element signature="e#816#817#0" expanded="true" />
+                <element signature="e#852#853#0" expanded="true" />
+                <element signature="e#890#891#0" expanded="true" />
+                <element signature="e#928#929#0" expanded="true" />
+                <element signature="e#974#975#0" expanded="true" />
+                <element signature="e#1014#1015#0" expanded="true" />
+                <element signature="e#1064#1065#0" expanded="true" />
+                <element signature="e#1108#1109#0" expanded="true" />
+                <element signature="e#1156#1157#0" expanded="true" />
+                <element signature="e#1198#1199#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -75,6 +131,12 @@
         <option value="$PROJECT_DIR$/src/SystemsOfDisjointSets/TablesJoin.java" />
         <option value="$PROJECT_DIR$/src/SystemsOfDisjointSets/AutomaticProgramAnalysis.java" />
         <option value="$PROJECT_DIR$/src/HashTables/TelephoneBook.java" />
+        <option value="$PROJECT_DIR$/src/HashTables/ChainHashing.java" />
+        <option value="$PROJECT_DIR$/src/HashTables/RabinKarpAlgorithm.java" />
+        <option value="$PROJECT_DIR$/src/AVLtree/BinTree.java" />
+        <option value="$PROJECT_DIR$/src/AVLtree/BinTreeTraversal.java" />
+        <option value="$PROJECT_DIR$/src/AVLtree/BinTreeCorrectnessCheck.java" />
+        <option value="$PROJECT_DIR$/src/AVLtree/SplayTrees.java" />
       </list>
     </option>
   </component>
@@ -200,6 +262,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Algorithms.Structures" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Algorithms.Structures" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AVLtree" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
@@ -208,93 +288,14 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/Katerina/Documents/GitHub/StepikTasks/Algorithms.Structures/src/HashTables/TelephoneBook.java" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Katerina\Documents\GitHub\StepikTasks\Algorithms.Structures\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TelephoneBook">
-    <configuration default="false" name="ParallelProcessing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="PriorityQueues.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="PriorityQueues.ParallelProcessing" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Algorithms.Structures" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="MaxWindow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="BasicStructures.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="BasicStructures.MaxWindow" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Algorithms.Structures" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="TablesJoin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="SystemsOfDisjointSets.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="SystemsOfDisjointSets.TablesJoin" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Algorithms.Structures" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="AutomaticProgramAnalysis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="SystemsOfDisjointSets.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="SystemsOfDisjointSets.AutomaticProgramAnalysis" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Algorithms.Structures" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.BinTreeCorrectnessCheck">
     <configuration default="false" name="TelephoneBook" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -303,6 +304,86 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="HashTables.TelephoneBook" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Algorithms.Structures" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ChainHashing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="HashTables.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="HashTables.ChainHashing" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Algorithms.Structures" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="RabinKarpAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="HashTables.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="HashTables.RabinKarpAlgorithm" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Algorithms.Structures" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="BinTreeTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="AVLtree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="AVLtree.BinTreeTraversal" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Algorithms.Structures" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="BinTreeCorrectnessCheck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="AVLtree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="AVLtree.BinTreeCorrectnessCheck" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -583,19 +664,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.ParallelProcessing" />
-      <item index="1" class="java.lang.String" itemvalue="Application.MaxWindow" />
-      <item index="2" class="java.lang.String" itemvalue="Application.TablesJoin" />
-      <item index="3" class="java.lang.String" itemvalue="Application.AutomaticProgramAnalysis" />
-      <item index="4" class="java.lang.String" itemvalue="Application.TelephoneBook" />
+      <item index="0" class="java.lang.String" itemvalue="Application.TelephoneBook" />
+      <item index="1" class="java.lang.String" itemvalue="Application.ChainHashing" />
+      <item index="2" class="java.lang.String" itemvalue="Application.RabinKarpAlgorithm" />
+      <item index="3" class="java.lang.String" itemvalue="Application.BinTreeTraversal" />
+      <item index="4" class="java.lang.String" itemvalue="Application.BinTreeCorrectnessCheck" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.TelephoneBook" />
-        <item index="1" class="java.lang.String" itemvalue="Application.AutomaticProgramAnalysis" />
-        <item index="2" class="java.lang.String" itemvalue="Application.TablesJoin" />
-        <item index="3" class="java.lang.String" itemvalue="Application.ParallelProcessing" />
-        <item index="4" class="java.lang.String" itemvalue="Application.MaxWindow" />
+        <item index="0" class="java.lang.String" itemvalue="Application.BinTreeCorrectnessCheck" />
+        <item index="1" class="java.lang.String" itemvalue="Application.BinTreeTraversal" />
+        <item index="2" class="java.lang.String" itemvalue="Application.RabinKarpAlgorithm" />
+        <item index="3" class="java.lang.String" itemvalue="Application.ChainHashing" />
+        <item index="4" class="java.lang.String" itemvalue="Application.TelephoneBook" />
       </list>
     </recent_temporary>
   </component>
@@ -619,15 +700,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32649842" sideWeight="0.53147876" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32649842" sideWeight="0.5636896" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32649842" sideWeight="0.46852124" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32649842" sideWeight="0.43631038" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -635,7 +716,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39905363" sideWeight="0.48535872" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39905363" sideWeight="0.46486092" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -663,8 +744,14 @@
           <properties />
           <option name="timeStamp" value="6" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/HashTables/ChainHashing.java</url>
+          <line>51</line>
+          <properties />
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="8" />
+      <option name="time" value="23" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -673,6 +760,40 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/HashTables/ChainHashing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#483#484#0" expanded="true" />
+            <element signature="e#521#522#0" expanded="true" />
+            <element signature="e#556#557#0" expanded="true" />
+            <element signature="e#593#594#0" expanded="true" />
+            <element signature="e#643#644#0" expanded="true" />
+            <element signature="e#689#690#0" expanded="true" />
+            <element signature="e#736#737#0" expanded="true" />
+            <element signature="e#780#781#0" expanded="true" />
+            <element signature="method#add#0;class#HashChain#0;class#ChainHashing#0" expanded="false" />
+            <element signature="method#del#0;class#HashChain#0;class#ChainHashing#0" expanded="false" />
+            <element signature="method#find#0;class#HashChain#0;class#ChainHashing#0" expanded="false" />
+            <element signature="method#check#0;class#HashChain#0;class#ChainHashing#0" expanded="false" />
+            <element signature="e#5083#5084#0" expanded="true" />
+            <element signature="e#5123#5124#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HashTables/RabinKarpAlgorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/PriorityQueues/ParallelProcessing.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -799,22 +920,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BasicStructures/MaxWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34076434">
-          <caret line="52" column="24" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="class#MyStack#0;class#MaxWindow#0" expanded="false" />
-            <element signature="class#MyQueue#0;class#MaxWindow#0" expanded="false" />
-            <element signature="method#MyQueue#0;class#MyQueue#0;class#MaxWindow#0" expanded="false" />
-            <element signature="method#dequeue#0;class#MyQueue#0;class#MaxWindow#0" expanded="false" />
-            <element signature="method#dequeueMax#0;class#MyQueue#0;class#MaxWindow#0" expanded="false" />
-            <element signature="method#relocate#0;class#MyQueue#0;class#MaxWindow#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/SystemsOfDisjointSets/TablesJoin.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -831,23 +936,176 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SystemsOfDisjointSets/AutomaticProgramAnalysis.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="54" column="15" selection-start-line="0" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+        <state vertical-scroll-proportion="-0.5410765">
+          <caret line="51" column="22" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2082#2083#0" expanded="true" />
-            <element signature="e#2134#2135#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BasicStructures/MaxWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.72804534">
+          <caret line="103" column="0" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="class#MyStack#0;class#MaxWindow#0" expanded="false" />
+            <element signature="class#MyQueue#0;class#MaxWindow#0" expanded="false" />
+            <element signature="method#MyQueue#0;class#MyQueue#0;class#MaxWindow#0" expanded="false" />
+            <element signature="method#dequeue#0;class#MyQueue#0;class#MaxWindow#0" expanded="false" />
+            <element signature="method#dequeueMax#0;class#MyQueue#0;class#MaxWindow#0" expanded="false" />
+            <element signature="method#relocate#0;class#MyQueue#0;class#MaxWindow#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/HashTables/TelephoneBook.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4461153">
-          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.5964912">
+          <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HashTables/ChainHashing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
           <folding>
-            <element signature="e#1205#1206#0" expanded="true" />
-            <element signature="e#1246#1247#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#483#484#0" expanded="true" />
+            <element signature="e#521#522#0" expanded="true" />
+            <element signature="e#556#557#0" expanded="true" />
+            <element signature="e#593#594#0" expanded="true" />
+            <element signature="e#643#644#0" expanded="true" />
+            <element signature="e#689#690#0" expanded="true" />
+            <element signature="e#736#737#0" expanded="true" />
+            <element signature="e#780#781#0" expanded="true" />
+            <element signature="method#add#0;class#HashChain#0;class#ChainHashing#0" expanded="false" />
+            <element signature="method#del#0;class#HashChain#0;class#ChainHashing#0" expanded="false" />
+            <element signature="method#find#0;class#HashChain#0;class#ChainHashing#0" expanded="false" />
+            <element signature="method#check#0;class#HashChain#0;class#ChainHashing#0" expanded="false" />
+            <element signature="e#5083#5084#0" expanded="true" />
+            <element signature="e#5123#5124#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HashTables/RabinKarpAlgorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="54" column="13" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AVLtree/BinTreeTraversal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="194" column="9" selection-start-line="191" selection-start-column="11" selection-end-line="194" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#488#489#0" expanded="true" />
+            <element signature="e#523#524#0" expanded="true" />
+            <element signature="e#556#557#0" expanded="true" />
+            <element signature="e#592#593#0" expanded="true" />
+            <element signature="e#624#625#0" expanded="true" />
+            <element signature="e#658#659#0" expanded="true" />
+            <element signature="e#780#781#0" expanded="true" />
+            <element signature="e#822#823#0" expanded="true" />
+            <element signature="e#1016#1017#0" expanded="true" />
+            <element signature="e#1056#1057#0" expanded="true" />
+            <element signature="e#1099#1100#0" expanded="true" />
+            <element signature="e#1141#1142#0" expanded="true" />
+            <element signature="e#1184#1185#0" expanded="true" />
+            <element signature="e#1226#1227#0" expanded="true" />
+            <element signature="e#1259#1260#0" expanded="true" />
+            <element signature="e#1295#1296#0" expanded="true" />
+            <element signature="e#1327#1328#0" expanded="true" />
+            <element signature="e#1362#1363#0" expanded="true" />
+            <element signature="e#1395#1396#0" expanded="true" />
+            <element signature="e#1431#1432#0" expanded="true" />
+            <element signature="method#BinaryTree#0;class#BinaryTree#0;class#BinTreeTraversal#0" expanded="false" />
+            <element signature="method#arrayToTree#0;class#BinaryTree#0;class#BinTreeTraversal#0" expanded="false" />
+            <element signature="method#makeTraversals#0;class#BinaryTree#0;class#BinTreeTraversal#0" expanded="false" />
+            <element signature="method#inOrder#0;class#BinaryTree#0;class#BinTreeTraversal#0" expanded="false" />
+            <element signature="method#preOrder#0;class#BinaryTree#0;class#BinTreeTraversal#0" expanded="false" />
+            <element signature="method#postOrder#0;class#BinaryTree#0;class#BinTreeTraversal#0" expanded="false" />
+            <element signature="method#traversal#0;class#BinaryTree#0;class#BinTreeTraversal#0" expanded="false" />
+            <element signature="method#correctnessCheck#0;class#BinaryTree#0;class#BinTreeTraversal#0" expanded="false" />
+            <element signature="e#5552#5553#0" expanded="true" />
+            <element signature="e#5596#5597#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AVLtree/BinTreeCorrectnessCheck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="171" column="31" selection-start-line="171" selection-start-column="31" selection-end-line="171" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="class#TempNode#0;class#BinTreeCorrectnessCheck#0" expanded="false" />
+            <element signature="e#449#450#0" expanded="true" />
+            <element signature="e#484#485#0" expanded="true" />
+            <element signature="e#517#518#0" expanded="true" />
+            <element signature="e#553#554#0" expanded="true" />
+            <element signature="e#585#586#0" expanded="true" />
+            <element signature="e#619#620#0" expanded="true" />
+            <element signature="class#Node#0;class#BinTreeCorrectnessCheck#0" expanded="false" />
+            <element signature="e#741#742#0" expanded="true" />
+            <element signature="e#783#784#0" expanded="true" />
+            <element signature="e#977#978#0" expanded="true" />
+            <element signature="e#1017#1018#0" expanded="true" />
+            <element signature="e#1060#1061#0" expanded="true" />
+            <element signature="e#1102#1103#0" expanded="true" />
+            <element signature="e#1145#1146#0" expanded="true" />
+            <element signature="e#1187#1188#0" expanded="true" />
+            <element signature="e#1220#1221#0" expanded="true" />
+            <element signature="e#1256#1257#0" expanded="true" />
+            <element signature="e#1288#1289#0" expanded="true" />
+            <element signature="e#1323#1324#0" expanded="true" />
+            <element signature="e#1356#1357#0" expanded="true" />
+            <element signature="e#1392#1393#0" expanded="true" />
+            <element signature="method#BinaryTree#0;class#BinaryTree#0;class#BinTreeCorrectnessCheck#0" expanded="false" />
+            <element signature="method#arrayToTree#0;class#BinaryTree#0;class#BinTreeCorrectnessCheck#0" expanded="false" />
+            <element signature="method#makeTraversals#0;class#BinaryTree#0;class#BinTreeCorrectnessCheck#0" expanded="false" />
+            <element signature="method#inOrder#0;class#BinaryTree#0;class#BinTreeCorrectnessCheck#0" expanded="false" />
+            <element signature="method#preOrder#0;class#BinaryTree#0;class#BinTreeCorrectnessCheck#0" expanded="false" />
+            <element signature="method#postOrder#0;class#BinaryTree#0;class#BinTreeCorrectnessCheck#0" expanded="false" />
+            <element signature="method#traversal#0;class#BinaryTree#0;class#BinTreeCorrectnessCheck#0" expanded="false" />
+            <element signature="class#Interval#0;class#BinTreeCorrectnessCheck#0" expanded="false" />
+            <element signature="method#Interval#0;class#Interval#0;class#BinTreeCorrectnessCheck#0" expanded="false" />
+            <element signature="e#6218#6219#0" expanded="true" />
+            <element signature="e#6268#6269#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AVLtree/SplayTrees.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2756892">
+          <caret line="70" column="22" selection-start-line="70" selection-start-column="22" selection-end-line="70" selection-end-column="22" />
+          <folding>
+            <element signature="e#596#597#0" expanded="true" />
+            <element signature="e#630#631#0" expanded="true" />
+            <element signature="e#667#668#0" expanded="true" />
+            <element signature="e#702#703#0" expanded="true" />
+            <element signature="e#741#742#0" expanded="true" />
+            <element signature="e#778#779#0" expanded="true" />
+            <element signature="e#816#817#0" expanded="true" />
+            <element signature="e#852#853#0" expanded="true" />
+            <element signature="e#890#891#0" expanded="true" />
+            <element signature="e#928#929#0" expanded="true" />
+            <element signature="e#974#975#0" expanded="true" />
+            <element signature="e#1014#1015#0" expanded="true" />
+            <element signature="e#1064#1065#0" expanded="true" />
+            <element signature="e#1108#1109#0" expanded="true" />
+            <element signature="e#1156#1157#0" expanded="true" />
+            <element signature="e#1198#1199#0" expanded="true" />
           </folding>
         </state>
       </provider>
