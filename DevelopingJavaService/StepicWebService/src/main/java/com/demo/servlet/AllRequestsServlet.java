@@ -44,7 +44,7 @@ public class AllRequestsServlet extends HttpServlet {
     }
 
     private static Map<String, Object> createPageVariablesMap(HttpServletRequest request) {
-        Map<String, Object> pageVariables = new HashMap<>();
+        Map<String, Object> pageVariables = new HashMap<String, Object>();
         pageVariables.put("method", request.getMethod());
         pageVariables.put("URL", request.getRequestURL().toString());
         pageVariables.put("pathInfo", request.getPathInfo());

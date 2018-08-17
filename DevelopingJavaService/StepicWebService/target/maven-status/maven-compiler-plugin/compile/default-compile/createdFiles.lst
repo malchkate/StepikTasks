@@ -1,0 +1,4 @@
+com\demo\servlet\AllRequestsServlet.class
+com\demo\templater\PageGenerator.class
+com\demo\model\Frontend.class
+com\demo\StepicWebServiceApplication.class

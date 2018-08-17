@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54d96775-0156-4c38-972a-4d334ead184d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/StepicWebServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/model/Frontend.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/servlet/AllRequestsServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/templater/PageGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/servlet/AllRequestsServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/servlet/AllRequestsServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/templater/PageGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/templater/PageGenerator.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -30,13 +24,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="7" />
-          <entry key="java" value="257" />
+          <entry key="java" value="270" />
           <entry key="xml" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="257" />
+          <entry key="JAVA" value="270" />
           <entry key="PLAIN_TEXT" value="7" />
           <entry key="XML" value="7" />
         </counts>
@@ -82,7 +76,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/page.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
@@ -91,15 +85,15 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/templater/PageGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="362">
+              <caret line="28" column="43" lean-forward="true" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#793#794#0" expanded="true" />
-                <element signature="e#834#835#0" expanded="true" />
+                <element signature="e#1076#1077#0" expanded="true" />
+                <element signature="e#1117#1118#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -108,10 +102,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/servlet/AllRequestsServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="640">
-              <caret line="46" column="59" selection-start-line="46" selection-start-column="59" selection-end-line="46" selection-end-column="59" />
+            <state relative-caret-position="382">
+              <caret line="46" column="72" selection-start-line="46" selection-start-column="72" selection-end-line="46" selection-end-column="72" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1728#1744#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -151,9 +146,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/demo/StepicWebServiceApplication.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/demo/servlet/AllRequestsTemplate.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/demo/templater/PageGenerator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/demo/servlet/AllRequestsServlet.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/page.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/demo/servlet/AllRequestsServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/demo/templater/PageGenerator.java" />
       </list>
     </option>
   </component>
@@ -280,7 +275,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534523752559" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534524106282" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -312,6 +307,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-1208" width="1936" height="1176" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
@@ -327,7 +323,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.32917467" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32917467" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32917467" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -337,7 +333,7 @@
       <window_info anchor="right" id="News Feed" />
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="right" id="Palette&#9;" />
-      <window_info active="true" anchor="right" id="Maven Projects" visible="true" weight="0.32995737" />
+      <window_info anchor="right" id="Maven Projects" visible="true" weight="0.32995737" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -416,32 +412,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/templater/PageGenerator.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/page.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#793#794#0" expanded="true" />
-            <element signature="e#834#835#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="306">
+          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/servlet/AllRequestsServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="640">
-          <caret line="46" column="59" selection-start-line="46" selection-start-column="59" selection-end-line="46" selection-end-column="59" />
+        <state relative-caret-position="382">
+          <caret line="46" column="72" selection-start-line="46" selection-start-column="72" selection-end-line="46" selection-end-column="72" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1728#1744#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/page.html">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/templater/PageGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="19" />
+        <state relative-caret-position="362">
+          <caret line="28" column="43" lean-forward="true" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1076#1077#0" expanded="true" />
+            <element signature="e#1117#1118#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -502,6 +499,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
