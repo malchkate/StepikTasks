@@ -9,5 +9,8 @@
         <module name="StepicWebService" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="StepicWebService" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>
